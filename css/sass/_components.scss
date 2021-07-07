@@ -1,0 +1,42 @@
+/* Components -> Social icons */
+.footer-social {
+  padding: 1rem 0;
+}
+.social-icons {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0;
+}
+.social-icons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.social-icons li a:hover {
+  border: 2px solid var(--primary);
+}
+.social-icons i {
+  padding: 10px;
+}
+/* components -> Scroll To Top. */
+.scrolltop {
+  background: var(--primary);
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.scrolltop:hover {
+  background: var(--secondary);
+  color: #ffffff;
+}
