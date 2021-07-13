@@ -24,7 +24,7 @@ googlefontslocal:
 slider:
   version: 2.1.2
   js:
-    js/slider.js: {}
+    js/components/slider.js: {}
   dependencies:
     - core/jquery
   css:
