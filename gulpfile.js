@@ -23,11 +23,11 @@ gulp.task('browser-sync', function() {
         plugins: ['bs-rewrite-rules'],
         rewriteRules: [
             {
-                match: '/themes/custom/lmmi_journal/js/edux.js',
+                match: '/themes/contrib/edux_roblib/js/edux.js',
                 replace: '/js/edux.js'
             },
             {
-                match: '/themes/contrib/edux/css/style.css',
+                match: '/themes/contrib/edux_roblib/css/style.css',
                 replace: '/css/style.css'
             }
         ]

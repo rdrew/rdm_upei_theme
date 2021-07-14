@@ -13,3 +13,20 @@ display: block;}
 @import 'components';
 @import 'shortcodes';
 @import 'responsive';
+.slider-image {
+margin-top: 4rem;}
+.slider-text, .slider-text h1, .slider-text h2, .slider-text h3, .slider-text h4 {
+    color: var(--dark-grey);
+}
+.slider {
+background: var(--content-bg);}
+div#block-homepagewelcome {
+  a {
+ color:var(--upei-red);}
+  h2,p {
+
+  color:#fff !important;
+  }
+  color:#fff !important;
+    background: #789d4a;
+  }
