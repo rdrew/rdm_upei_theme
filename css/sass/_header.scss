@@ -36,8 +36,10 @@
   display: block;
 }
 .site-name {
+  font-family: var(--heading-font);
   color: var(--primary);
   font-weight: 700;
+  font-size: 2rem !important;
 }
 .site-name a:hover {
   color: var(--primary);

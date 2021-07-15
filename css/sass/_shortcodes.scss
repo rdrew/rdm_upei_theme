@@ -26,12 +26,12 @@
 }
 .button-dark {
   background-color: var(--dark);
-  color: var(--primary);
-  border: 4px solid var(--primary);
+  color: var(--light);
+  border: 6px solid var(--upei-red);
 }
 .button-dark:hover {
   color: #ffffff;
-  border: 4px solid var(--primary);
+  border: 6px solid var(--upei-green);
 }
 /* Elements -> Box */
 .box {
