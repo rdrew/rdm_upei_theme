@@ -1,14 +1,15 @@
+//@format
 /* Variables
 ---------------------------------------- */
- :root {
+:root {
   /* Theme Colors */
   //--theme-color: #FFCC18;
-  --upei-red:#7C2529;
-  --upei-green:#789D4A;
-  --upei-yello:#F1B434;
+  --upei-red: #7c2529;
+  --upei-green: #789d4a;
+  --upei-yello: #f1b434;
   --theme-color: green;
   --theme-color-two: #383a68;
-  --primary: #FFCC18;
+  --primary: #ffcc18;
   --secondary: #3e4182;
   //--dark: #2a2e52;
   --dark: #333;
@@ -18,8 +19,9 @@
   --bold-color: #111111;
   --content-bg: #f2f2f2;
   --text-color: #222222;
- --body-font: 'Noto Sans', sans-serif;
- --heading-font: 'Noto Sans', sans-serif; 
+  --body-font: 'Noto Sans', sans-serif;
+  //--heading-font: 'Noto Sans', sans-serif;
+  --heading-font: 'Adelle', serif;
 }
 /* HTML and Body
 ---------------------------------------- */
@@ -62,7 +64,6 @@ a,
 a:active,
 li a.active {
   color: var(--secondary);
-  
 }
 a:hover {
   color: var(--primary);
@@ -91,9 +92,9 @@ figcaption {
 a.button,
 .button,
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   background-color: var(--secondary);
   color: #ffffff;
   border: 4px solid var(--primary);
@@ -105,37 +106,37 @@ button,
 a.button:hover,
 .button:hover,
 button:hover,
-[type="button"]:hover,
-[type="reset"]:hover,
-[type="submit"]:hover {
+[type='button']:hover,
+[type='reset']:hover,
+[type='submit']:hover {
   background-color: var(--dark);
   color: var(--primary);
 }
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
 textarea {
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
 textarea {
   color: var(--text-color);
   background: var(--light);
   border: 1px solid var(--border);
 }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
 textarea:focus {
   border: 1px solid var(--primary);
   background: #f0f0f0;
@@ -154,28 +155,28 @@ summary {
   font-weight: 700;
 }
 /* Form -> Radio buttons */
-input[type="radio"],
-input[type="checkbox"] {
+input[type='radio'],
+input[type='checkbox'] {
   border: 2px solid var(--secondary);
 }
-input[type="radio"]:hover,
-input[type="checkbox"]:hover {
+input[type='radio']:hover,
+input[type='checkbox']:hover {
   border: 2px solid var(--primary);
 }
-input[type="radio"]:checked,
-input[type="checkbox"]:checked {
+input[type='radio']:checked,
+input[type='checkbox']:checked {
   background-color: var(--primary);
   color: #000000;
 }
-input[type="checkbox"] {
+input[type='checkbox'] {
   appearance: none;
 }
-input[type="checkbox"]::after {
+input[type='checkbox']::after {
   content: '\2714';
   text-align: center;
-  display: none;  
+  display: none;
 }
-input[type="checkbox"]:checked::after {
+input[type='checkbox']:checked::after {
   display: block;
 }
 select {

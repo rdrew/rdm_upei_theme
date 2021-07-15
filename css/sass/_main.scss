@@ -1,3 +1,4 @@
+//@format
 /* Main
 ---------------------------------------- */
 /* Main -> Admin tabs */
@@ -26,7 +27,7 @@ ul.page-tabs {
 }
 .node-taxonomy-container .term-title::before {
   font-family: 'ficon';
-  content: "\e902";
+  content: '\e902';
   color: var(--primary);
   padding-right: 6px;
 }
