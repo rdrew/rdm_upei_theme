@@ -1,0 +1,35 @@
+{
+  "name": "roblib/edux_roblib",
+  "description": "Edu-X sub-theme with UPEI colour palette.",
+  "type": "drupal-theme",
+  "keywords": [
+    "Drupal",
+    "Islandora"
+  ],
+  "homepage": "https://github.com/roblib/rdm_upei_theme",
+  "support": {
+    "issues": "https://github.com/roblib/rdm_upei_theme/issues"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/thex": "8.0.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "squizlabs/php_codesniffer": "2.7.1",
+    "drupal/coder": "*",
+    "sebastian/phpcpd": "*"
+  },
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Rob Drew",
+      "role": "Owner"
+    }
+  ]
+}
