@@ -86,6 +86,10 @@
     transition: all 0.2s linear;
   }
   .menu-wrap ul.menu li:hover {
+    a {
+
+    color: var(--light);
+    }
     background-position: 0 -100%;
   }
   ul.main-menu li a:hover {
