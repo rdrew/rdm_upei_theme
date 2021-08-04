@@ -20,6 +20,16 @@ googlefontslocal:
     base:
       css/fonts.css: {}
 
+# accordion
+accordion:
+  js:
+    js/components/accordionjs/accordion.min.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    component:
+      js/components/accordionjs/accordion.css: {}
+
 # Slider
 slider:
   version: 2.1.2

@@ -198,7 +198,7 @@ select {
 /* Table
 ---------------------------------------- */
 th {
-  background: var(--secondary);
+  background: var(--light);
   color: #fff;
   border: 1px solid var(--dark); }
 
@@ -603,6 +603,19 @@ ul.page-tabs {
 
 .region-content-home-top .block:last-child {
   margin: 0; }
+
+.slider {
+  height: calc(75vh - 2rem); }
+
+.slider-container {
+  height: calc(75vh - 2rem); }
+
+.slider-text {
+  flex: 80%; }
+
+.slider-image {
+  flex: 20%;
+  margin-top: 0 !important; }
 
 /* Components -> Social icons */
 .footer-social {

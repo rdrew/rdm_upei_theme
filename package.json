@@ -22,6 +22,7 @@
     "gulp-sourcemaps": "^2.6.4"
   },
   "dependencies": {
+    "accordionjs": "^2.1.2",
     "natives": "^1.1.6"
   }
 }

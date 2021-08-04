@@ -1,3 +1,4 @@
+//@format
 .homepage-content .block-title {
   text-align: center;
   margin-bottom: 1rem;
@@ -15,4 +16,18 @@
 }
 .region-content-home-top .block:last-child {
   margin: 0;
+}
+$slider-height: calc(75vh - 2rem);
+.slider {
+  height: $slider-height;
+  &-container {
+    height: $slider-height;
+  }
+  &-text {
+    flex: 80%;
+  }
+  &-image {
+    flex: 20%;
+    margin-top: 0 !important;
+  }
 }

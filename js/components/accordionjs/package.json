@@ -1,0 +1,63 @@
+{
+  "_from": "accordionjs",
+  "_id": "accordionjs@2.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-FfzRddPrPzIMUfo7W6SBY472t8QkJaH7Lvpuom66iA5pBd1eqpGzi9BPKe2O/k0FrmGOavY+nuw2uKhlq4BP2Q==",
+  "_location": "/accordionjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "accordionjs",
+    "name": "accordionjs",
+    "escapedName": "accordionjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/accordionjs/-/accordionjs-2.1.2.tgz",
+  "_shasum": "e37bbe42c42151df8ab0377a6ad3077fda7b0878",
+  "_spec": "accordionjs",
+  "_where": "/Users/rdrew/code/themes/rdm_temp",
+  "author": {
+    "name": "ZeroWP Team"
+  },
+  "bugs": {
+    "url": "https://github.com/Smartik89/Accordion.JS/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A free, lightweight jQuery Accordion plugin. It is only ~1KB gzipped. Configurable using direct options and HTML5 data-* attributes.",
+  "directories": {
+    "doc": "docs"
+  },
+  "files": [
+    "accordion.js",
+    "accordion.min.js",
+    "accordion.css",
+    "accordion.less"
+  ],
+  "homepage": "https://github.com/Smartik89/Accordion.JS#readme",
+  "keywords": [
+    "jquery",
+    "accordion",
+    "collapse",
+    "toggle",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "accordion.js",
+  "name": "accordionjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smartik89/Accordion.JS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.2"
+}
