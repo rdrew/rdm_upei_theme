@@ -442,7 +442,8 @@ div#block-menudetailsforhomepage li {
 ---------------------------------------- */
 /* Main -> Admin tabs */
 ul.page-tabs {
-  border-bottom: 2px solid var(--upei-red); }
+  border-bottom: 2px solid var(--upei-red);
+  margin-top: 1rem; }
 
 .page-tabs li a {
   background: #dddddd;
@@ -658,6 +659,43 @@ ul.page-tabs {
 .scrolltop:hover {
   background: var(--secondary);
   color: #ffffff; }
+
+#accordion .accordion_question * {
+  margin: 0;
+  font-weight: bold; }
+
+#accordion .accordion_answer * {
+  margin: 0; }
+
+form#node-data-management-plan-form {
+  margin-top: 1rem; }
+
+form#node-data-management-plan-form td {
+  padding: 1rem; }
+
+form#node-data-management-plan-form td.field-multiple-drag {
+  padding: 0;
+  padding-top: 1rem; }
+
+form#node-data-management-plan-form .button,
+form#node-data-management-plan-form .button,
+form#node-data-management-plan-form button,
+form#node-data-management-plan-form [type='button'],
+form#node-data-management-plan-form [type='reset'],
+form#node-data-management-plan-form [type='submit'] {
+  background-color: #ccc;
+  color: initial;
+  border: 1px solid var(--upei-red);
+  border-radius: 4px;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  padding: 0 5px; }
+
+.footer-bottom-blocks .button {
+  background: var(--upei-green);
+  border: 4px solid var(--upei-yello);
+  padding: 0 9px; }
 
 /*
  * Custom Shortcodes
