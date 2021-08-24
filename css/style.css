@@ -606,10 +606,10 @@ ul.page-tabs {
   margin: 0; }
 
 .slider {
-  height: calc(75vh - 2rem); }
+  height: 400px; }
 
 .slider-container {
-  height: calc(75vh - 2rem); }
+  height: 400px; }
 
 .slider-text {
   flex: 80%; }
