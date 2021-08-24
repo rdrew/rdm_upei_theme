@@ -200,6 +200,7 @@ select {
 th {
   background: var(--light);
   color: #fff;
+  color: var(--upei-red);
   border: 1px solid var(--dark); }
 
 td {
